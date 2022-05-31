@@ -1,0 +1,16 @@
+.promo {
+    min-height: 100vh;
+    position: relative;
+    background: url("../img/bg/main-bg.png") center center/cover no-repeat;
+    padding-top: 205px;
+    &__link {
+        color: #fff;
+        &:hover {
+            transition: 0.6s;
+            color: $main-color;
+        }
+    }
+    &__btns {
+        margin-top: 35px;
+    }
+}

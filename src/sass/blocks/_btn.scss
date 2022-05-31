@@ -1,0 +1,17 @@
+.btn {
+    padding: 0 25px;
+    height: 45px;
+    background: $main-color;
+    padding: 12px 25px;
+    font-weight: 700;
+    font-size: 14px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    &_promo{
+        color: #fff;
+        margin-right: 44px;
+    }
+    &:hover {
+        background: #ffa601b0;
+        color: #fff;
+    }
+}

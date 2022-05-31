@@ -1,0 +1,21 @@
+.portfolio {
+    @include section_header;
+    &__wrapper {
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: repeat(4, 280px);
+        grid-auto-rows: 280px;
+        gap: 5px;
+    }
+    &__item {
+        transition: all 0.4s;
+        filter: grayscale(.40);
+        &:hover {
+            filter: grayscale(0);
+            transform: scale(1.02);
+        }
+        img {
+            width: 100%;
+        }
+    }
+}
